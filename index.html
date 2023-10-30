@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fighting game</title>
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="head">
+<img class="first-body-image" src="./images/taken-3-name.png" alt="taken3 image name">
+<button class="btn get-started" onclick="firstPage()">Let's Begin</button>
+</div>
+  
+<div class="section-1">
+    <h2> Select Player 1</h>
+    <h2>Select Player 2</h2>
+<div class="fighter-pictures">
+<div class="fighter-pick-player-1">
+<img id="character" onclick="selectPlayer1('https://purepng.com/public/uploads/thumbnail//purepng.com-spidermanspider-manspidermansuperherocomic-bookmarvel-comicscharacterstan-leegamesmovie-1701528656381ojc7l.png')"  src="https://purepng.com/public/uploads/thumbnail//purepng.com-spidermanspider-manspidermansuperherocomic-bookmarvel-comicscharacterstan-leegamesmovie-1701528656381ojc7l.png" alt="">
+<img id="character" onclick="selectPlayer1('https://i.pinimg.com/originals/52/02/91/520291104981c690714aab74712c9bf3.png')" src="https://i.pinimg.com/originals/52/02/91/520291104981c690714aab74712c9bf3.png" alt="">
+<img id="character" onclick="selectPlayer1('https://pngimg.com/d/superman_PNG38.png')" src="https://pngimg.com/d/superman_PNG38.png" alt="">
+<img id="character" onclick="selectPlayer1('https://2.bp.blogspot.com/-RUwMQB5c6cU/T3nYHGueaTI/AAAAAAAAV5w/8lRJtWUXNh4/s1600/honda_hundred_hands.gif')" src="https://2.bp.blogspot.com/-RUwMQB5c6cU/T3nYHGueaTI/AAAAAAAAV5w/8lRJtWUXNh4/s1600/honda_hundred_hands.gif" alt=""><br><br>
+<img id="character" onclick="selectPlayer1('https://assets.altarofgaming.com/wp-content/uploads/2023/06/eddy-tekken-3-character-artwork-altar-of-gaming-1028.png')" src="https://assets.altarofgaming.com/wp-content/uploads/2023/06/eddy-tekken-3-character-artwork-altar-of-gaming-1028.png" alt="">
+<img id="character" onclick="selectPlayer1('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2d0f8c0d-861d-426b-bedf-ed7af2f563b4/d9un04l-b221ab07-58c9-4200-9fe4-eb9a4171a4cc.png/v1/fill/w_1024,h_1286/tekken_7_king_png_by_tekkensarmorking_d9un04l-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4NiIsInBhdGgiOiJcL2ZcLzJkMGY4YzBkLTg2MWQtNDI2Yi1iZWRmLWVkN2FmMmY1NjNiNFwvZDl1bjA0bC1iMjIxYWIwNy01OGM5LTQyMDAtOWZlNC1lYjlhNDE3MWE0Y2MucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.fe81tqRwbj9jR5NA705NBYjQEf7yACCT86QjH2Rnb3M')" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2d0f8c0d-861d-426b-bedf-ed7af2f563b4/d9un04l-b221ab07-58c9-4200-9fe4-eb9a4171a4cc.png/v1/fill/w_1024,h_1286/tekken_7_king_png_by_tekkensarmorking_d9un04l-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4NiIsInBhdGgiOiJcL2ZcLzJkMGY4YzBkLTg2MWQtNDI2Yi1iZWRmLWVkN2FmMmY1NjNiNFwvZDl1bjA0bC1iMjIxYWIwNy01OGM5LTQyMDAtOWZlNC1lYjlhNDE3MWE0Y2MucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.fe81tqRwbj9jR5NA705NBYjQEf7yACCT86QjH2Rnb3M" alt="">
+<img id="character" onclick="selectPlayer1('https://freepngimg.com/save/35189-street-fighter-ii-transparent-picture/309x630')" src="https://freepngimg.com/save/35189-street-fighter-ii-transparent-picture/309x630" alt="">
+<img id="character" onclick="selectPlayer1('https://www.pngall.com/wp-content/uploads/2016/07/Street-Fighter-Free-Download-PNG.png')" src="https://www.pngall.com/wp-content/uploads/2016/07/Street-Fighter-Free-Download-PNG.png" alt="">
+<div  class="player">
+<h2 class="heading-player"> <span> SELECT</span> PLAYER</h2>
+</div>
+</div>
+<div class="fighter-pick-player-1">
+    <img id = "character2" onclick="selectPlayer2('https://assets.altarofgaming.com/wp-content/uploads/2023/06/eddy-tekken-3-character-artwork-altar-of-gaming-1028.png')" src="https://assets.altarofgaming.com/wp-content/uploads/2023/06/eddy-tekken-3-character-artwork-altar-of-gaming-1028.png" alt="">
+    <img id = "character2" onclick="selectPlayer2('https://pngimg.com/d/superman_PNG38.png')" src="https://pngimg.com/d/superman_PNG38.png" alt="">
+    <img id = "character2" onclick="selectPlayer2('https://www.pngall.com/wp-content/uploads/2016/07/Street-Fighter-Free-Download-PNG.png')" src="https://www.pngall.com/wp-content/uploads/2016/07/Street-Fighter-Free-Download-PNG.png" alt="">
+    <img id = "character2" onclick="selectPlayer2('https://purepng.com/public/uploads/thumbnail//purepng.com-spidermanspider-manspidermansuperherocomic-bookmarvel-comicscharacterstan-leegamesmovie-1701528656381ojc7l.png')"  src="https://purepng.com/public/uploads/thumbnail//purepng.com-spidermanspider-manspidermansuperherocomic-bookmarvel-comicscharacterstan-leegamesmovie-1701528656381ojc7l.png" alt=""><br><br>
+    <img id = "character2" onclick="selectPlayer2('https://freepngimg.com/save/35189-street-fighter-ii-transparent-picture/309x630')" src="https://freepngimg.com/save/35189-street-fighter-ii-transparent-picture/309x630" alt="">
+    <img id = "character2" onclick="selectPlayer2('https://2.bp.blogspot.com/-RUwMQB5c6cU/T3nYHGueaTI/AAAAAAAAV5w/8lRJtWUXNh4/s1600/honda_hundred_hands.gif')" src="https://2.bp.blogspot.com/-RUwMQB5c6cU/T3nYHGueaTI/AAAAAAAAV5w/8lRJtWUXNh4/s1600/honda_hundred_hands.gif" alt="">
+    <img id = "character2" onclick="selectPlayer2('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2d0f8c0d-861d-426b-bedf-ed7af2f563b4/d9un04l-b221ab07-58c9-4200-9fe4-eb9a4171a4cc.png/v1/fill/w_1024,h_1286/tekken_7_king_png_by_tekkensarmorking_d9un04l-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4NiIsInBhdGgiOiJcL2ZcLzJkMGY4YzBkLTg2MWQtNDI2Yi1iZWRmLWVkN2FmMmY1NjNiNFwvZDl1bjA0bC1iMjIxYWIwNy01OGM5LTQyMDAtOWZlNC1lYjlhNDE3MWE0Y2MucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.fe81tqRwbj9jR5NA705NBYjQEf7yACCT86QjH2Rnb3M')" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2d0f8c0d-861d-426b-bedf-ed7af2f563b4/d9un04l-b221ab07-58c9-4200-9fe4-eb9a4171a4cc.png/v1/fill/w_1024,h_1286/tekken_7_king_png_by_tekkensarmorking_d9un04l-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4NiIsInBhdGgiOiJcL2ZcLzJkMGY4YzBkLTg2MWQtNDI2Yi1iZWRmLWVkN2FmMmY1NjNiNFwvZDl1bjA0bC1iMjIxYWIwNy01OGM5LTQyMDAtOWZlNC1lYjlhNDE3MWE0Y2MucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.fe81tqRwbj9jR5NA705NBYjQEf7yACCT86QjH2Rnb3M" alt="">
+    <img id = "character2" onclick="selectPlayer2('https://i.pinimg.com/originals/52/02/91/520291104981c690714aab74712c9bf3.png')" src="https://i.pinimg.com/originals/52/02/91/520291104981c690714aab74712c9bf3.png" alt="">
+    <div class="player2">
+    <h2 class="heading-player1" > <span> SELECT</span> PLAYER</h2>
+</div>
+</div>
+</div>
+<button class="btn start-game" onclick="gameStartNow()" >Start the Game</button>
+</div>
+<div class="section-2">
+<img class="spider" src="./images/spidey-scratchin.gif" alt="">
+<img class="zangief" src="./images/zangief-combo-alpha (1).gif" alt="">
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

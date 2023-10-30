@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Croissant+One&family=Montserrat:wght@200;300;400;500;600;700&family=Poppins&display=swap');
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Black Ops One', cursive; */
+font-family: 'Croissant One', cursive;
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+}
+
+.head{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: #333;
+    /* display: none; */
+}
+.head .first-body-image{
+    position: absolute;
+    top: 46%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  
+ 
+}
+.btn{
+    text-align: center;
+    padding: 1.5em 4.5rem;
+    border: 2px solid white;
+    border-radius: 100px;
+    font-weight: 700;
+    background: #b8b1b1;
+
+  
+
+}
+.btn:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,
+    0 0 50px cyan, 0 0 100px cyan;
+    cursor: pointer;
+
+  
+}
+.btn:focus{
+    opacity: .9;
+}
+.get-started{
+    position: absolute;
+    bottom: 1rem;
+    left: 37%;
+}
+/* ################## START PAGE 2 ##################### */
+
+
+.section-1{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-17.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-position: bottom;
+    display: none;
+}
+
+.section-1 h2{
+   display: inline-block; 
+    padding: 1rem 8em;
+   color: #fff;
+}
+/* ##################### PAGE 2 CHOOSE PLAER ##################### */
+.fighter-pictures{
+    /* border: 2px solid; */
+       position: relative;
+    width: 100%;
+}
+.fighter-pick-player-1{
+    padding: 1rem 2.3rem;
+    float: right;
+    width: 50%;
+}
+.fighter-pictures .fighter-pick-player-1 img{
+    /* display: inline-block; */
+      margin: 0px .3rem;
+    width: 20%;
+    height: 90px;
+    object-fit: contain;
+    background-size: cover;
+ background: #fff;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+.fighter-pictures img:hover{
+   border-color: goldenrod;
+   border-width: 2px;
+   width:20.2% ;
+   
+}
+.fighter-pick-player-1{
+    float: left;
+    width: 50%;
+}
+
+.fighter-pictures::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fighter-pictures span{
+    background: #b6b4b4;
+    border-radius: 5px;
+    
+
+}
+.start-game{
+position: absolute;
+bottom: 50px;
+left: 35%;
+}
+/* .player{
+    position: relative;
+} */
+/* ############################# SECTION_2 PAGE GAME ################# */
+.section-2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-27.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    display: none;
+
+}
+.spider{
+    position: absolute;
+    bottom: 10px;
+    height: 150px;
+}
+
+.zangief{
+    position: absolute;
+    bottom: 10px;
+    height: 180px;
+    left: 73%;
+}
+.images{
+border: none;
+background: none;
+}
+
+
+
+
+
+
+
+
+
+
